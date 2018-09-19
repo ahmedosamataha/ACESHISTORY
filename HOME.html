@@ -7,8 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
-
-    <title>ACES</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css">
+    
+	<title>ACES</title>
+	
   </head>
   <body>
 
@@ -101,8 +106,113 @@
 </div>
 </div>
 
-  		
+<BR><BR><BR>  
+	
+	<div class="container"  >
+		<h2 style ="color:#306635">Conference</h2>
+		<br>
+	
+		<div  id="myCarousel" class="carousel slide" data-ride="carousel" >
+	  
+			<!-- Pictures -->
+			<div class="carousel-inner single-item"  style="height:500px;margin:auto;" >
+			  <div class="item active col-md-12" style="background-image:url('images/Conference/conf6.jpg');height: 500px;background-size: contain;background-repeat: no-repeat;background-position: center;">
+				
+			  </div>
+
+			  <div class="item col-md-12" style="background-image:url('images/Conference/conf5.jpg');height: 500px;background-size: contain;background-repeat: no-repeat;background-position: center;">
+				
+			  </div>
+			
+			  <div class="item col-md-12" style="background-image:url('images/Conference/conf4.jpg');height: 500px;background-size: contain;background-repeat: no-repeat;background-position: center;">
+				
+			  </div>
+			  
+			   <div class="item col-md-12" style="background-image:url('images/Conference/conf3.jpg');height: 500px;background-size: contain;background-repeat: no-repeat;background-position: center;">
+				
+			  </div>
+			  
+			  <div class="item col-md-12" style="background-image:url('images/Conference/conf2.jpg');height: 500px;background-size: contain;background-repeat: no-repeat;background-position: center;">
+				
+			  </div>
+			  
+			  <div class="item col-md-12" style="background-image:url('images/Conference/conf1.jpg');height: 500px;background-size: contain;background-repeat: no-repeat;background-position: center;">
+				
+			  </div>
+			  
+			 
+			</div>
+
+			
+			<style>
+				.slick-slide {
+					  text-align: center;
+					  color: #419be0;
+					  background: white;
+					}
+			</style>
+			
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+		<script>
+			$(".single-item").slick({
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				centerMode: true,
+				autoplay: true,
+				autoplaySpeed: 4000,
+				arrows: true
+			});
+		</script>
+		<style>
+				.slick-prev:before, .slick-next:before { 
+					color:green !important;
+				}
+				.slick-prev {
+					margin-left: 40px;
+					z-index:1000
+				}
+
+				.slick-next {
+					margin-right: 40px;
+					z-index:1000
+				}
+		</style>
+		
+		
+		
+		
+</div>
   	
+	 <div style="margin: 40px;">
+  		<div class="container" >
+  		<div class="jumbotrone" >
+  			
+  			<div class="container" style="background-color: #306635; padding: 30px 30px;color: white;margin-bottom: 30px;border-radius: 15px">
+  			<h4 >It's our main event which is held at the closure of the year. Both technical and non technical tracks merge where participants of Expo get awarded by the companies and participants of Workshops get their certificates. Also public speakers attend and give motivational speeches. </h4>
+  			</div>
+
+  	     </div>
+
+  	</div>
+	</div>
+  	
+	
+	
 
 
     <!-- Optional JavaScript -->
